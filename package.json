@@ -1,0 +1,27 @@
+{
+  "name": "llk-boilerplate-full",
+  "version": "0.0.1",
+  "description": "Full boilerplate for koa",
+  "main": "index.js",
+  "scripts": {
+    "autod": "autod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuiweiqiang/llk-boilerplate-full.git"
+  },
+  "keywords": [
+    "koa",
+    "llk"
+  ],
+  "author": "cuiweiqiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuiweiqiang/llk-boilerplate-full/issues"
+  },
+  "homepage": "https://github.com/cuiweiqiang/llk-boilerplate-full#readme",
+  "devDependencies": {
+    "autod": "^3.0.1"
+  }
+}

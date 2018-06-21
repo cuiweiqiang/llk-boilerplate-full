@@ -1,0 +1,38 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "private": true,
+  "scripts": {
+    "autod": "autod",
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "{{author}}",
+  "license": "MIT",
+  "dependencies": {
+    "kcors": "2.2.1",
+    "koa": "2.5.1",
+    "koa-bodyparser": "4.2.1",
+    "koa-compose": "4.1.0",
+    "koa-convert": "1.2.0",
+    "koa-generic-session": "2.0.1",
+    "koa-json": "2.0.2",
+    "koa-logger": "3.2.0",
+    "koa-router": "7.4.0",
+    "koa-static": "5.0.0",
+    "mongoose": "5.1.6",
+    "require-directory": "2.1.1"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "nodemon": "^1.17.5"
+  }
+}
